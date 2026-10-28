@@ -852,7 +852,7 @@ return (
 {" Acquire verified documentation, floor layout schematics, and official sponsorship prospectuses for your management board. "}</p>
 </div>
 <div className="space-y-3">
-<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="#">
+<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="/contact#inquiry-desk">
 <div className="flex items-center gap-3">
 <span className="material-symbols-outlined text-[24px] text-primary-container" aria-hidden="true">
 {"calendar_today"}</span>
@@ -866,7 +866,7 @@ return (
 <span className="material-symbols-outlined text-[20px] text-secondary group-hover:text-on-surface" aria-hidden="true">
 {"download"}</span>
 </a>
-<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="#">
+<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="/contact#inquiry-desk">
 <div className="flex items-center gap-3">
 <span className="material-symbols-outlined text-[24px] text-primary-container" aria-hidden="true">
 {"description"}</span>
@@ -880,7 +880,7 @@ return (
 <span className="material-symbols-outlined text-[20px] text-secondary group-hover:text-on-surface" aria-hidden="true">
 {"download"}</span>
 </a>
-<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="#">
+<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="/contact#inquiry-desk">
 <div className="flex items-center gap-3">
 <span className="material-symbols-outlined text-[24px] text-primary-container" aria-hidden="true">
 {"flag"}</span>
@@ -894,7 +894,7 @@ return (
 <span className="material-symbols-outlined text-[20px] text-secondary group-hover:text-on-surface" aria-hidden="true">
 {"download"}</span>
 </a>
-<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="#">
+<a className="flex items-center justify-between p-4 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm transition-colors group" href="/contact#inquiry-desk">
 <div className="flex items-center gap-3">
 <span className="material-symbols-outlined text-[24px] text-primary-container" aria-hidden="true">
 {"how_to_reg"}</span>

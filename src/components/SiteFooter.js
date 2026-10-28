@@ -40,15 +40,15 @@ return (
 {"Calendar & Expos"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="services" href="/#services">
+<Link data-path="services" href="/services">
 {"Exhibition Services"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="media" href="/#media">
+<Link data-path="media" href="/media">
 {"Press & Coverage"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="careers" href="/leadership#careers">
+<Link data-path="careers" href="/careers">
 {"Careers & Culture"}</Link>
 </li>
 </ul>
@@ -58,23 +58,23 @@ return (
 {"Brands & Media"}</h4>
 <ul className="space-y-space-xs font-body-sm text-body-sm">
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="diemex-expo" href="/events#flagship-convocation">
+<Link data-path="diemex-expo" href="/events/diemex-2027">
 {"DIEMEX International Expo"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="our-brands" href="/#brands">
+<Link data-path="our-brands" href="/our-brands">
 {"Tooling & Mold Tech Showcase"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="publications" href="/#publications">
+<Link data-path="publications" href="/publications">
 {"Industrial Trade Journals"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="publications" href="/#publications">
+<Link data-path="publications" href="/publications">
 {"Manufacturing Digests"}</Link>
 </li>
 <li className="cursor-pointer text-surface-variant hover:text-surface-container-lowest transition-colors">
-<Link data-path="our-brands" href="/#brands">
+<Link data-path="our-brands" href="/our-brands">
 {"Industry Directories"}</Link>
 </li>
 </ul>
@@ -102,7 +102,7 @@ return (
 {"info@maxxmedia.in"}</span>
 </div>
 <div className="pt-space-xs">
-<Link className="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-fixed hover:text-surface-container-lowest transition-colors" data-path="contact" href="/#contact">
+<Link className="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-fixed hover:text-surface-container-lowest transition-colors" data-path="contact" href="/contact">
 <span>
 {"Official Inquiry Desk"}</span>
 <span className="material-symbols-outlined text-[14px]" aria-hidden="true">
@@ -116,10 +116,10 @@ return (
 <p>
 {"© 2026 MAXX Business Media Pvt. Ltd. All rights reserved."}</p>
 <div className="flex items-center gap-space-md">
-<a className="hover:text-surface-container-lowest transition-colors" data-path="privacy-policy" href="#">
-{"Privacy Policy"}</a>
-<a className="hover:text-surface-container-lowest transition-colors" data-path="terms-of-service" href="#">
-{"Terms of Service"}</a>
+<a className="hover:text-surface-container-lowest transition-colors" data-path="privacy-policy" href="mailto:corporate@maxxmedia.in?subject=Request%20Privacy%20Policy">
+{"Request Privacy Policy"}</a>
+<a className="hover:text-surface-container-lowest transition-colors" data-path="terms-of-service" href="mailto:corporate@maxxmedia.in?subject=Request%20Terms%20of%20Service">
+{"Request Terms of Service"}</a>
 <Link className="hover:text-surface-container-lowest transition-colors" data-path="exhibitor-guidelines" href="/events#download-center">
 {"Exhibitor Guidelines"}</Link>
 <Link className="hover:text-surface-container-lowest transition-colors" data-path="sitemap" href="/#main-navigation">

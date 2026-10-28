@@ -234,7 +234,7 @@ return (
 <span>
 {"View Event Details"}</span>
 </Link>
-<Link className="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" href="/events#flagship-convocation">
+<Link className="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" href="/events/diemex-2027">
 <span>
 {"Visit Official Website"}</span>
 <span className="material-symbols-outlined text-[16px] ml-1" aria-hidden="true">
@@ -360,7 +360,7 @@ return (
 <div className="pt-space-xs flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
 <span>
 {"+38% Exhibitor Growth YoY"}</span>
-<Link className="text-primary font-label-md text-label-md hover:underline" data-path="our-brands" href="/#brands">
+<Link className="text-primary font-label-md text-label-md hover:underline" data-path="our-brands" href="/our-brands">
 {"Explore Portfolio"}</Link>
 </div>
 </div>
@@ -381,7 +381,7 @@ return (
 <div className="pt-space-xs flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
 <span>
 {"850+ C-Level Attendees"}</span>
-<Link className="text-primary font-label-md text-label-md hover:underline" data-path="our-brands" href="/#brands">
+<Link className="text-primary font-label-md text-label-md hover:underline" data-path="our-brands" href="/our-brands">
 {"Explore Portfolio"}</Link>
 </div>
 </div>
@@ -402,7 +402,7 @@ return (
 <div className="pt-space-xs flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
 <span>
 {"3 Regional Editions"}</span>
-<Link className="text-primary font-label-md text-label-md hover:underline" data-path="our-brands" href="/#brands">
+<Link className="text-primary font-label-md text-label-md hover:underline" data-path="our-brands" href="/our-brands">
 {"Explore Portfolio"}</Link>
 </div>
 </div>
@@ -452,7 +452,7 @@ return (
 </li>
 </ul>
 </div>
-<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/#services">
+<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/services">
 <span>
 {"Inquire Service"}</span>
 <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
@@ -490,7 +490,7 @@ return (
 </li>
 </ul>
 </div>
-<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/#services">
+<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/services">
 <span>
 {"Inquire Service"}</span>
 <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
@@ -528,7 +528,7 @@ return (
 </li>
 </ul>
 </div>
-<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/#services">
+<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/services">
 <span>
 {"Inquire Service"}</span>
 <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
@@ -566,7 +566,7 @@ return (
 </li>
 </ul>
 </div>
-<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/#services">
+<Link className="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-tertiary pt-space-xs" data-path="services" href="/services">
 <span>
 {"Inquire Service"}</span>
 <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
@@ -683,11 +683,11 @@ return (
 </div>
 </div>
 <div className="flex items-center gap-space-md pt-space-xs">
-<Link className="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-on-surface text-surface-container-lowest font-label-md text-label-md hover:bg-secondary transition-colors" data-path="publications" href="/#publications">
+<Link className="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-on-surface text-surface-container-lowest font-label-md text-label-md hover:bg-secondary transition-colors" data-path="publications" href="/publications">
 <span>
 {"View Publications Archive"}</span>
 </Link>
-<Link className="font-label-md text-label-md text-primary hover:underline" data-path="contact" href="/#contact">
+<Link className="font-label-md text-label-md text-primary hover:underline" data-path="contact" href="/contact">
 <span>
 {"Media Kit & Rates →"}</span>
 </Link>
@@ -706,7 +706,7 @@ return (
 <p className="font-body-sm text-body-sm text-secondary">
 {"Focusing on heavy machine tools, laser processing, cutting fluids, and factory robotics."}</p>
 </div>
-<Link className="font-label-sm text-label-sm text-primary font-semibold hover:underline inline-flex items-center" data-path="publications" href="/#publications">
+<Link className="font-label-sm text-label-sm text-primary font-semibold hover:underline inline-flex items-center" data-path="publications" href="/publications">
 <span>
 {"Read Digital Edition"}</span>
 <span className="material-symbols-outlined text-[14px] ml-1" aria-hidden="true">
@@ -725,7 +725,7 @@ return (
 <p className="font-body-sm text-body-sm text-secondary">
 {"The definitive voice on hot runner systems, press die steels, and additive tooling solutions."}</p>
 </div>
-<Link className="font-label-sm text-label-sm text-primary font-semibold hover:underline inline-flex items-center" data-path="publications" href="/#publications">
+<Link className="font-label-sm text-label-sm text-primary font-semibold hover:underline inline-flex items-center" data-path="publications" href="/publications">
 <span>
 {"Read Digital Edition"}</span>
 <span className="material-symbols-outlined text-[14px] ml-1" aria-hidden="true">
@@ -819,7 +819,7 @@ return (
 <h2 className="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">
 {"Event Experience & Media Gallery"}</h2>
 </div>
-<Link className="font-label-md text-label-md text-primary hover:underline inline-flex items-center" data-path="media" href="/#media">
+<Link className="font-label-md text-label-md text-primary hover:underline inline-flex items-center" data-path="media" href="/media">
 <span>
 {"View All Galleries & Videos"}</span>
 <span className="material-symbols-outlined text-[18px] ml-1" aria-hidden="true">
@@ -908,7 +908,7 @@ return (
 <h2 className="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">
 {"News & Technical Insights"}</h2>
 </div>
-<Link className="font-label-md text-label-md text-primary hover:underline inline-flex items-center" data-path="media" href="/#media">
+<Link className="font-label-md text-label-md text-primary hover:underline inline-flex items-center" data-path="media" href="/media">
 <span>
 {"Read All Articles"}</span>
 <span className="material-symbols-outlined text-[18px] ml-1" aria-hidden="true">
@@ -929,13 +929,13 @@ return (
 {"March 2025 • 5 min read"}</span>
 </div>
 <h3 className="font-headline-sm text-headline-sm text-on-surface font-bold hover:text-primary transition-colors">
-<a href="#">
+<a href="/contact#inquiry-desk">
 {"The Future of Smart Tooling & Precision Die Manufacturing"}</a>
 </h3>
 <p className="font-body-sm text-body-sm text-secondary">
 {" How Industry 4.0 sensor embedding into progressive dies is curbing scrap rates and boosting uptime for Tier 1 auto vendors. "}</p>
 </div>
-<a className="font-label-md text-label-md text-primary font-semibold hover:underline inline-flex items-center pt-space-xs" href="#">
+<a className="font-label-md text-label-md text-primary font-semibold hover:underline inline-flex items-center pt-space-xs" href="/contact#inquiry-desk">
 <span>
 {"Read Article"}</span>
 <span className="material-symbols-outlined text-[16px] ml-1" aria-hidden="true">
@@ -956,13 +956,13 @@ return (
 {"February 2025 • 4 min read"}</span>
 </div>
 <h3 className="font-headline-sm text-headline-sm text-on-surface font-bold hover:text-primary transition-colors">
-<a href="#">
+<a href="/contact#inquiry-desk">
 {"Key Trends Driving Indian Machine Tool Expo Expansion"}</a>
 </h3>
 <p className="font-body-sm text-body-sm text-secondary">
 {" Domestic capital equipment investments witness an unprecedented surge fueled by localized automotive and electronics supply initiatives. "}</p>
 </div>
-<a className="font-label-md text-label-md text-primary font-semibold hover:underline inline-flex items-center pt-space-xs" href="#">
+<a className="font-label-md text-label-md text-primary font-semibold hover:underline inline-flex items-center pt-space-xs" href="/contact#inquiry-desk">
 <span>
 {"Read Article"}</span>
 <span className="material-symbols-outlined text-[16px] ml-1" aria-hidden="true">
@@ -983,13 +983,13 @@ return (
 {"January 2025 • 6 min read"}</span>
 </div>
 <h3 className="font-headline-sm text-headline-sm text-on-surface font-bold hover:text-primary transition-colors">
-<a href="#">
+<a href="/contact#inquiry-desk">
 {"Maximizing B2B Trade Show ROI in 2026: The Strategic Playbook"}</a>
 </h3>
 <p className="font-body-sm text-body-sm text-secondary">
 {" Step-by-step guidance on pre-event digital outreach, booth lead tracking, and VIP prospect conversion strategies. "}</p>
 </div>
-<a className="font-label-md text-label-md text-primary font-semibold hover:underline inline-flex items-center pt-space-xs" href="#">
+<a className="font-label-md text-label-md text-primary font-semibold hover:underline inline-flex items-center pt-space-xs" href="/contact#inquiry-desk">
 <span>
 {"Read Article"}</span>
 <span className="material-symbols-outlined text-[16px] ml-1" aria-hidden="true">
@@ -1024,11 +1024,11 @@ return (
 <span className="material-symbols-outlined text-[18px] ml-2" aria-hidden="true">
 {"arrow_forward"}</span>
 </Link>
-<Link className="inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-surface-container-lowest/10 text-surface-container-lowest hover:bg-surface-container-lowest/20 font-label-md text-label-md transition-all" data-path="contact" href="/#contact">
+<Link className="inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-surface-container-lowest/10 text-surface-container-lowest hover:bg-surface-container-lowest/20 font-label-md text-label-md transition-all" data-path="contact" href="/contact">
 <span>
 {"Partner With MAXX"}</span>
 </Link>
-<Link className="inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-transparent text-secondary-fixed-dim hover:text-surface-container-lowest font-label-md text-label-md transition-all" data-path="contact" href="/#contact">
+<Link className="inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-transparent text-secondary-fixed-dim hover:text-surface-container-lowest font-label-md text-label-md transition-all" data-path="contact" href="/contact">
 <span>
 {"Contact Corporate Desk"}</span>
 </Link>

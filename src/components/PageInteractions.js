@@ -10,6 +10,7 @@ export default function PageInteractions({ children }) {
     const listen = (element, event, listener) => element?.addEventListener(event, listener, { signal: controller.signal });
     const input = root.querySelector("#eventSearchInput");
     if (input) {
+      input.value = new URLSearchParams(window.location.search).get("q") || "";
       const cards = [...root.querySelectorAll(".event-item")];
       const statusButtons = [...root.querySelectorAll(".filter-status-btn")];
       const sectorButtons = [...root.querySelectorAll(".sector-chip")];

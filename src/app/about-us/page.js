@@ -623,7 +623,7 @@ return (
 <span className="material-symbols-outlined text-[18px]" aria-hidden="true">
 {"calendar_today"}</span>
 </a>
-<Link className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-lg py-3.5 rounded-lg bg-surface-container-high/15 hover:bg-surface-container-high/25 text-surface-container-lowest font-label-md text-label-md transition-colors" href="/#brands">
+<Link className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-lg py-3.5 rounded-lg bg-surface-container-high/15 hover:bg-surface-container-high/25 text-surface-container-lowest font-label-md text-label-md transition-colors" href="/our-brands">
 <span>
 {"Explore Our Exhibition Brands"}</span>
 <span className="material-symbols-outlined text-[18px]" aria-hidden="true">

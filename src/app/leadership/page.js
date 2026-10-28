@@ -136,7 +136,7 @@ return (
 <span>
 {"Executive Office Desk"}</span>
 </a>
-<a className="inline-flex items-center gap-1 px-3 py-2 rounded-lg bg-surface-container-high hover:bg-surface-variant transition-colors text-on-surface font-label-sm text-label-sm" href="#">
+<a className="inline-flex items-center gap-1 px-3 py-2 rounded-lg bg-surface-container-high hover:bg-surface-variant transition-colors text-on-surface font-label-sm text-label-sm" href="/contact#inquiry-desk">
 <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
 {"open_in_new"}</span>
 <span>
@@ -535,13 +535,13 @@ return (
 {" We are actively expanding our divisional bench in Mumbai, Bengaluru, and Pune. Seeking Senior Project Directors, Technical Content Editors, and International Key Account Executives passionate about heavy manufacturing. "}</p>
 </div>
 <div className="flex flex-wrap items-center gap-space-sm shrink-0">
-<Link className="inline-flex items-center justify-center px-space-md py-3 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container hover:text-on-tertiary transition-all shadow-sm" data-path="careers" href="/leadership#careers">
+<Link className="inline-flex items-center justify-center px-space-md py-3 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container hover:text-on-tertiary transition-all shadow-sm" data-path="careers" href="/careers">
 <span>
 {"Explore Career Opportunities"}</span>
 <span className="material-symbols-outlined text-[18px] ml-1.5" aria-hidden="true">
 {"arrow_forward"}</span>
 </Link>
-<Link className="inline-flex items-center justify-center px-space-md py-3 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors" data-path="contact" href="/#contact">
+<Link className="inline-flex items-center justify-center px-space-md py-3 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors" data-path="contact" href="/contact">
 <span>
 {"Contact Executive Desk"}</span>
 </Link>
@@ -561,13 +561,13 @@ return (
 {" Whether booking an anchor corporate pavilion for DIEMEX 2027 or partnering for a dedicated national trade mission, our executive directors are available for direct strategic consultation. "}</p>
 </div>
 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm shrink-0 w-full sm:w-auto">
-<Link className="inline-flex items-center justify-center px-space-xl py-4 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container hover:text-on-tertiary transition-all shadow-md transform hover:-translate-y-0.5 text-center" data-path="contact" href="/#contact">
+<Link className="inline-flex items-center justify-center px-space-xl py-4 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container hover:text-on-tertiary transition-all shadow-md transform hover:-translate-y-0.5 text-center" data-path="contact" href="/contact">
 <span>
 {"Schedule an Executive Meeting"}</span>
 <span className="material-symbols-outlined text-[18px] ml-2" aria-hidden="true">
 {"calendar_today"}</span>
 </Link>
-<Link className="inline-flex items-center justify-center px-space-lg py-4 rounded-lg bg-surface-container-high/15 hover:bg-surface-container-high/25 text-surface-container-lowest font-label-md text-label-md transition-colors text-center" data-path="diemex-expo" href="/events#flagship-convocation">
+<Link className="inline-flex items-center justify-center px-space-lg py-4 rounded-lg bg-surface-container-high/15 hover:bg-surface-container-high/25 text-surface-container-lowest font-label-md text-label-md transition-colors text-center" data-path="diemex-expo" href="/events/diemex-2027">
 <span>
 {"Explore DIEMEX 2027 Deck"}</span>
 <span className="material-symbols-outlined text-[18px] ml-2" aria-hidden="true">

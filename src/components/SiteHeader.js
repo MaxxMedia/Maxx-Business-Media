@@ -6,8 +6,8 @@ import { usePathname } from "next/navigation";
 
 const links = [
   ["Home", "/"], ["About Us", "/about-us"], ["Events", "/events"],
-  ["Our Brands", "/#brands"], ["Services", "/#services"], ["Publications", "/#publications"],
-  ["Media", "/#media"], ["Careers", "/leadership#careers"], ["Contact", "/#contact"],
+  ["Our Brands", "/our-brands"], ["Services", "/services"], ["Publications", "/publications"],
+  ["Media", "/media"], ["Careers", "/careers"], ["Contact", "/contact"],
 ];
 
 export default function SiteHeader() {
@@ -19,11 +19,11 @@ export default function SiteHeader() {
     window.addEventListener("keydown", close);
     return () => window.removeEventListener("keydown", close);
   }, [open]);
-  const active = (href) => href === pathname || (href === "/about-us" && pathname === "/leadership");
+  const active = (href) => href === pathname || (href === "/about-us" && pathname === "/leadership") || (href === "/events" && pathname.startsWith("/events/"));
   const linkClass = (href) => "h-full inline-flex items-center font-label-md text-label-md transition-colors border-b-2 " + (active(href) ? "text-primary-container font-semibold border-primary-container" : "text-on-surface-variant border-transparent hover:text-primary");
   return (
     <header id="main-navigation" className="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
-      <div className="h-20 max-w-[1360px] mx-auto px-margin lg:px-margin-lg flex items-center justify-between gap-space-md">
+      <div className="h-20 max-w-[1360px] mx-auto px-margin-sm sm:px-margin lg:px-margin-lg flex items-center justify-between gap-space-xs sm:gap-space-md">
         <Link href="/" aria-label="MAXX Business Media home" className="flex items-center gap-space-sm shrink-0" onClick={() => setOpen(false)}>
           <img src="/images/stitch/maxx-business-media-corporate-logo-b0884dcdef.png" alt="MAXX Business Media" className="h-8 w-auto max-w-24 object-contain" width="64" height="32" />
           <span className="hidden sm:flex flex-col"><span className="font-headline-sm text-headline-sm text-on-surface uppercase tracking-tight">MAXX</span><span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Business Media Pvt. Ltd.</span></span>

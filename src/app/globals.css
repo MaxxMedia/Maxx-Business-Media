@@ -161,3 +161,12 @@
   main [class*="px-margin"], footer [class*="px-margin"] { padding-left: 1rem; padding-right: 1rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+
+.resource-dialog { width: min(40rem, calc(100vw - 2rem)); max-height: calc(100dvh - 2rem); margin: auto; border: 1px solid var(--color-surface-container-high); }
+.resource-dialog::backdrop { background: rgb(24 28 33 / .65); backdrop-filter: blur(3px); }
+main [data-photo-batch]:disabled { opacity: .55; cursor: default; }
+main [data-gallery-item]:focus-within .opacity-0 { opacity: 1; }
+main details[open] > summary .material-symbols-outlined:last-child { transform: rotate(180deg); }
+main .overflow-x-auto { max-width: 100%; }
+main input, main select, main textarea { max-width: 100%; min-width: 0; }
+@media (max-width: 639px) { main table { min-width: 620px; } main [data-gallery-item] label { font-size: 11px; } }
